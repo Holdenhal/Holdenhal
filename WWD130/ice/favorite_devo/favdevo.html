@@ -1,0 +1,101 @@
+<!-----
+Author: Holden Lederer
+Class: WDD 130
+Copyright/Date 2/9/26
+
+Source: https://byui.instructure.com/courses/401218/assignments/16466321?module_item_id=43524090
+https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp
+https://www.w3schools.com/howto/howto_js_autocomplete.asp
+https://www.w3schools.com/howto/howto_css_search_button.asp
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         
+        <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title,</th>
+              <th>Location </th>
+              <th> Year</th>
+            </tr>
+            <tr>
+              <td>President Wightman</td>
+              <td>The Entanglements of Sin</td>
+              <td>Rexburg</td>
+              <td>2014</td>
+                  <td><input type="checkbox" id="myCheck" onclick="myFunction()">
+                <p id="text" style="display:none">Checkbox is CHECKED!</p></td> 
+            </tr>
+           <tr>
+
+            <td>Jim Lawrence</td>
+              <td>Choose Love</td>
+              <td>Rexburg</td>
+              <td>2025</td> 
+              <td><input type="checkbox" id="myCheck" onclick="myFunction()">
+                <p id="text" style="display:none">Checkbox is CHECKED!</p></td>
+          </tr>
+           <tr>
+            <td>Elder Henry B. Eyring</td>
+              <td>A Steady, Upward Course</td>
+              <td>Rexburg</td>
+              <td>2001</td>
+                  <td><input type="checkbox" id="myCheck" onclick="myFunction()">
+                <p id="text" style="display:none">Checkbox is CHECKED!</p></td> 
+          </tr>
+          
+        </table>
+      
+<form autocomplete="off" action="/action_page.php"class="autocomplete">
+    <input id="myInput" type="text" name="myCountry" placeholder="Devotionals">
+    <input type="submit">
+</form>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="autocomplete" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+<input type="text" value="Devotionals 2019" class="autocomplete">
+
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy text</button>
+
+         <!----
+         Table of Favorites
+Create a table with 4 columns
+In the main section add to the div with the class name content-box.
+ Write the html code for a table with 4 columns for Speaker, Title, Location, and Year. 
+ Add 3 rows and include appropriate information about your favorite devotional.-->
+      </div>
+    </main>
+  </div>
+</body>
+</html>

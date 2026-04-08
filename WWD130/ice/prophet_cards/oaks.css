@@ -1,0 +1,31 @@
+/* 
+Body*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+body{color:#FFEDC7;text-align: center;}
+h1{color:white;font-family:Helvetica, sans-serif;}
+/*Subtitle*/
+h2{color:#91e4fb;font-family:Helvetica, sans-serif;}
+/*Card*/
+#card{background-color: #008db1; color: white; border:5px solid #004e63;text-align:center;border-radius: 6px;display: flex;justify-content:center;flex-direction: column;}
+#image-card{text-align: center;}
+    img{border: 2px solid white;}
+/*Title*/
+li{color: white;}
+/* ul li {
+    word-spacing: normal;
+} */
+
+ul {
+     list-style-position: inside;
+
+}
+/*Pic*/
+html{margin:0 auto; width:50%;}
+/*******Stats*******/
+#list{color:FFFFFE; font-family:Helvetica, sans-serif;}
+
+/* /Quote */
+#quote{color: #ffd783;font-family:'Nanum Brush Script',cursive;}
+
+
+

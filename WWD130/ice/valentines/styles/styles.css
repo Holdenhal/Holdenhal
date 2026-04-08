@@ -1,0 +1,73 @@
+/* 
+Author: Holden Lederer
+Class: WWD 130
+Date:11 Feb 2026
+
+citations
+[0]
+[1] VS Code
+*/
+/* Add your CSS here to style your valentines day page */
+
+body{
+    background-color: rgb(246, 4, 64);
+    color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*********Wraper*********/
+.wrapper{ color: #2911ff;
+
+}
+/*********Header********/
+.header {
+    background-color: pink;
+    color: red
+}
+
+/********nav******/
+nav{}
+/*********Main*/
+main{
+    background-color: red;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+}
+
+/********h1****/
+h1 {color: #FFD700;
+grid-column: 1/4;
+text-align: center;
+}
+
+
+ul{columns: 4;
+column-gap: 35px ;}
+li{list-style: none;
+    margin: 0 10px;}
+
+/********image*****/
+img{
+    width: 30%;
+    grid-column: 1/4;
+    margin:0 auto;
+    display:block
+    
+}
+/********SECtions***/
+section{
+    background: rgb(255, 47, 47);
+    color: pink;
+    margin:2%;
+    padding:1%
+
+}
+section h2{
+    text-align: center;
+} 
+/***********footer********/
+footer{
+    background-color: pink;
+    color:rgb(255, 0, 0) ;
+}

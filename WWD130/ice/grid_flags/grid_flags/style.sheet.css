@@ -1,0 +1,158 @@
+   /******
+   Author 
+   Date 17 Feb 2026
+   
+   Sources
+   
+   
+   
+   
+   
+   
+   */
+
+
+
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: gray;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            letter-spacing: 0.05rem;
+            text-transform: uppercase;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-weight: 400;
+        }
+        main {
+            display: grid;
+            grid-template-columns: .1fr .1fr 1fr .1fr;
+            margin-top: 20px;
+        }
+        hr {
+            width: 100%;
+            grid-column: 1 / 5;
+        }
+        h2 {
+            grid-column: 2/3;
+        }
+/*Chile*/
+        #blue {
+            background: blue;
+            grid-column: 1 / 2;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+
+        #white {
+            background: white;
+            grid-column: 2 / 4;
+        }
+
+        #red {
+            background: red;
+            grid-column: 1 / 4;
+        }
+
+        #chile {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 200px;
+            width: 300px;
+        }
+
+        .star {
+            width: 70px;
+            aspect-ratio: 1;
+            background: white;
+            clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+        }
+/********** Denmark**/
+#denmark{
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 2fr 1fr 2fr ;
+      height: 200px;
+     width: 300px;
+}
+    #dred1{background-color: rgb(203, 2, 2);
+        grid-column: 1/2;
+        border-left:none;
+    }
+     
+    #dred2{background-color: rgb(203, 2, 2);
+        grid-column: 3/4;
+    
+    }
+    
+    #dred3{background-color: rgb(203, 2, 2);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #dred4{background-color: rgb(203, 2, 2);
+        grid-column: 3/4;
+        grid-row: 3/4;  }
+
+/********** Finland**/
+#finland{
+    background-color: rgb(15, 66, 233);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+      height: 200px;
+     width: 300px;
+}
+    #fwhite1{background-color: rgb(255, 255, 255);
+        grid-column: 1/2;
+        border-left:none;
+    }
+     
+    #fwhite2{background-color: rgb(255, 255, 255);
+        grid-column: 3/4;
+    }
+    
+    #fwhite3{background-color: rgb(255, 255, 255);
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #fwhite4{background-color: rgb(255, 255, 255);
+        grid-column: 3/4;
+        grid-row: 3/4;  }
+
+/****Benin***/
+ #benin{
+    background-color: rgb(77, 229, 26);
+    display:grid;
+    grid-template-columns:2fr 2fr 5fr;
+    grid-template-rows: 2fr 1fr 1fr ;
+      height: 200px;
+     width: 300px;
+}
+    
+    #byellow{background-color: rgb(244, 255, 95);
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+    
+    #bred{background-color: rgb(190, 46, 14);
+        grid-column: 3/4;
+        grid-row: 2/4;}
+
+

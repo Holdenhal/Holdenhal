@@ -1,0 +1,35 @@
+/**********************Head*******************/
+header{text-align:center;background-color: #3E8989;
+}
+.sidenav{text-align: center;}
+
+
+/**********************main*******************/
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;}
+  div{text-align: center;font-family: 'Lucida Sans Unicode'}
+
+  main{background-color:#E3C16F;font-family: 'Lucida Sans Unicode', 'Lucida Grande';text-align: center;}
+
+
+/**********************Body*******************/
+.me{width: 9%;
+}
+.devo{width:15% ;}
+.WWR{width: 25%;}
+.val{width: 25%;border-color: black}
+.oaks{width: 15%;}
+.desc{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: x-large;}
+.com{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: larger;}
+  /**********************Footer*******************/
+  footer{text-align: center; background-color:#3E8989;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+  .fa{height: 10px;}
